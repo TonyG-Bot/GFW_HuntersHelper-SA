@@ -54,6 +54,60 @@ FHH_WOLF = "Wolf";
 FHH_ALL_FAMILIES = "all beast families";
 FHH_PET_TRAINER = "Pet Trainers (found in major cities and some towns)";
 
+if ( GetLocale() == "esES" ) then
+
+	 -- We treat all five resistances as the same spell, because they're identical in all ways that we care about.
+FHH_ARCANE_RESIST = "Resistencia Arcana";
+FHH_FIRE_RESIST = "Resistencia al Fuego";
+FHH_FROST_RESIST = "Resistencia a la Escarcha";
+FHH_NATURE_RESIST = "Resistencia a la Naturaleza";
+FHH_SHADOW_RESIST = "Resistencia a las Sombras";
+-- So, our reverse mapping represents any of the five resistances.
+FHH_ALL_RESISTS = "Resistencia a las Sombras/Arcano/Fuego/Escarcha/Naturaleza";
+
+-- Other spell names
+FHH_STAMINA = "Gran Aguante";
+FHH_ARMOR = "Armadura Natural";
+FHH_BITE = "Mordedura";
+FHH_CLAW = "Zarpa";
+FHH_COWER = "Pavor";
+FHH_DASH = "Carrerilla";
+FHH_DIVE = "Lanzada";
+FHH_GROWL = "Bramido";
+FHH_HOWL = "Aullido Furioso";
+FHH_LIGHTNING = "Aliento de Relámpagos";
+FHH_POISON = "Veneno de Escórpido";
+FHH_PROWL = "Acechar";
+FHH_SCREECH = "Chirrido";
+FHH_CHARGE = "Cargar";
+FHH_SHELL = "Escudo de Caparazón";
+FHH_THUNDERSTOMP = "Pisada de Trueno";
+
+-- Beast family names
+FHH_BAT = "Murciélago";
+FHH_BEAR = "Oso";
+FHH_BOAR = "Jabalí";
+FHH_CARRION_BIRD = "Carroñero";
+FHH_CAT = "Felino";
+FHH_CRAB = "Cangrejo";
+FHH_CROCOLISK = "Crocolisco";
+FHH_GORILLA = "Gorila";
+FHH_HYENA = "Hiena";
+FHH_OWL = "Búho";
+FHH_RAPTOR = "Raptor";
+FHH_SCORPID = "Escórpido";
+FHH_SPIDER = "Araña";
+FHH_TALLSTRIDER = "Zancudo";
+FHH_TURTLE = "Tortuga";
+FHH_WIND_SERPENT = "Serpiente Alada";
+FHH_WOLF = "Lobo";
+
+-- Other strings used in tables
+FHH_ALL_FAMILIES = "todas las familias de bestias";
+FHH_PET_TRAINER = "Instructores de mascotas (se encuentran en ciudades principales y algunas aldeas)";
+
+end
+
 if ( GetLocale() == "deDE" ) then
 
 	-- We treat all five resistances as the same spell, because they're identical in all ways that we care about.
